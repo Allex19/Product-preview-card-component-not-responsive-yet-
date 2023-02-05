@@ -1,0 +1,92 @@
+@media only screen and (max-width: 300px)
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&display=swap');
+body {
+    background-color: rgba(243,234,227,255);
+    height: 100%;
+}
+
+.container{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+
+    transform: translate(-50%, -50%);
+    height: 70%;
+    width: 60%;
+    
+      
+}
+
+
+
+
+
+.left{
+    background-image: url(image-product-desktop.jpg);
+    background-size: cover;
+    width: 65%;
+    border-radius: 30px 0 0 30px;
+   
+}
+
+
+.right{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    padding: 5% 5% 0%; 
+    background-color:#ffffff;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 0px 30px 30px 0px;
+    
+    
+}
+
+.right h1{
+    font-family: 'Fraunces', serif;
+    font-size: 40px;
+    
+}
+
+.right p{
+    font-family: 'Fraunces', serif;
+    font-size: 20px;
+    color: hsl(228, 12%, 48%);
+    
+}
+
+.price-new{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Fraunces', serif;
+    font-size: 40px;
+    color:#3d8168;
+
+}
+
+.price-old{
+    font-size: 20px;
+    color: hsl(228, 12%, 48%);
+}
+
+.right button{
+    margin: 25px;
+    height: 3.5em;
+    background-color:green;
+    border-radius: 8px;
+    color: #ffffff;
+    font-family: 'Fraunces', serif;
+    font-size: 1em;
+
+      
+}
+
+button:hover{
+    background-color: #3d8168;
+    cursor: pointer;
+}
+
